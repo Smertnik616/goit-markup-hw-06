@@ -26,7 +26,8 @@
           <ul class="header-nav-list">
             <li class="nav-list-item">
               <a class="nav-list-item-link active" href="./index.html"
-                >Studio</a>
+                >Studio</a
+              >
             </li>
             <li class="nav-list-item">
               <a class="nav-list-item-link" href="">Portfolio</a>
@@ -35,7 +36,6 @@
               <a class="nav-list-item-link" href="">Contacts</a>
             </li>
           </ul>
-          
         </nav>
         <address class="header-address">
           <ul class="contacts-list">
@@ -53,106 +53,109 @@
             </li>
           </ul>
         </address>
-      </div>
-      <button class="btn-menu" type="button">
-            <svg width="24" height="24" class="btn-menu-icon">
-              <use href="./images/icons.svg#icon-button_menu"></use>
-            </svg>
-          </button>
-          <div class="mob-menu">
-            <button type="button" class="pop-up-btn">
-          <svg width="8" height="8" class="pop-up-btn-svg">
-            <use href="./images/icons.svg#cross"></use>
+        <button type="button" class="burger-btn" data-mobile-open>
+          <svg class="burger-icon" width="24" height="24">
+            <use href="./images/icons.svg#icon-burger_menu"></use>
           </svg>
         </button>
-            <nav class="mob-menu-nav">
-              <ul class="mob-menu-nav-list">
-                <li class="mob-menu-nav-list-item">
-                  <a class="mob-menu-nav-list-item-link_active" href="#"
-                    >Studio</a
-                  >
-                </li>
-                <li class="mob-menu-nav-list-item">
-                  <a class="mob-menu-nav-list-item-link" href="#">Portfolio</a>
-                </li>
-                <li class="mob-menu-nav-list-item">
-                  <a class="mob-menu-nav-list-item-link" href="#">Contacts</a>
-                </li>
-              </ul>
-            </nav>
-             <address class="mob-menu-address">
-              <ul class="mob-menu-list">
-                <li class="contacts-list-item">
-                  <a class="mob-menu-list-item-link" href="tel:+110001111111"
-                    >+11 (000) 111-11-11</a>
-                </li>
-                <li class="contacts-list-item">
-                  <a
-                    class="mob-menu-list-item-link"
-                    href="mailto:info@devstudio.com"
-                    >info@devstudio.com</a>
-                </li>
-              </ul>
-            </address>
-          <div class="mob-menu-icon">
-            <ul class="mob-menu-icon-list">
-            <li class="mob-menu-icon-item">
-              <a href="" class="mob-menu-icon-link">
-                <svg
-                  class="mob-menu-icon-link-svg"
-                  width="24"
-                  height="24"
-                >
-                  <use href="./images/icons.svg#instagram"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="mob-menu-icon-item">
-              <a href="" class="mob-menu-icon-link">
-                <svg
-                  class="mob-menu-icon-link-svg"
-                  width="24"
-                  height="24"
-                >
-                  <use href="./images/icons.svg#twitter"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="mob-menu-icon-item">
-              <a href="" class="mob-menu-icon-link">
-                <svg
-                  class="mob-menu-icon-link-svg"
-                  width="24"
-                  height="24"
-                >
-                  <use href="./images/icons.svg#facebook"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="mob-menu-icon-item">
-              <a href="" class="mob-menu-icon-link">
-                <svg
-                  class="mob-menu-icon-link-svg"
-                  width="24"
-                  height="24"
-                >
-                  <use href="./images/icons.svg#linkedin"></use>
-                </svg>
-              </a>
-            </li>
-            </ul>
-          </div>
       </div>
-          
-        
-      
     </header>
+    <div class="mobile-menu" data-mobile>
+      <div class="container mobile-menu-container">
+        <button type="button" class="mobile-menu-close" data-mobile-close>
+          <svg width="8" height="8" class="mobile-menu-close-svg">
+            <use href="./images/icons.svg#close"></use>
+          </svg>
+        </button>
+        <nav class="mobile-menu-nav">
+          <ul class="mobile-menu-nav-list">
+            <li class="mobile-nav-list-item">
+              <a class="mobile-nav-list-item-link accent" href="./index.html"
+                >Studio</a
+              >
+            </li>
+            <li class="mobile-nav-list-item">
+              <a class="mobile-nav-list-item-link" href="">Portfolio</a>
+            </li>
+            <li class="mobile-nav-list-item">
+              <a class="mobile-nav-list-item-link" href="">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+        <address class="mobile-menu-adress">
+          <ul class="mobile-menu-adress-list">
+            <li class="mobile-menu-adress-list-item">
+              <a
+                class="mobile-menu-adress-list-item-link accent"
+                href="tel:+110001111111"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+            <li class="mobile-menu-adress-list-item">
+              <a
+                class="mobile-menu-adress-list-item-link"
+                href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+          </ul>
+        </address>
+        <ul class="mobile-menu-list">
+          <li class="mobile-menu-list-item-container-social-item">
+            <a href="" class="mobile-menu-list-item-container-social-item-link">
+              <svg
+                class="mobile-menu-list-item-container-social-item-link-svg"
+                width="24"
+                height="24"
+              >
+                <use href="./images/icons.svg#instagram"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="mobile-menu-list-item-container-social-item">
+            <a href="" class="mobile-menu-list-item-container-social-item-link">
+              <svg
+                class="mobile-menu-list-item-container-social-item-link-svg"
+                width="24"
+                height="24"
+              >
+                <use href="./images/icons.svg#twitter"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="mobile-menu-list-item-container-social-item">
+            <a href="" class="mobile-menu-list-item-container-social-item-link">
+              <svg
+                class="mobile-menu-list-item-container-social-item-link-svg"
+                width="24"
+                height="24"
+              >
+                <use href="./images/icons.svg#facebook"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="mobile-menu-list-item-container-social-item">
+            <a href="" class="mobile-menu-list-item-container-social-item-link">
+              <svg
+                class="mobile-menu-list-item-container-social-item-link-svg"
+                width="24"
+                height="24"
+              >
+                <use href="./images/icons.svg#linkedin"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
     <main>
       <section class="hero-section">
         <div class="container">
           <h1 class="hero-title">Effective Solutions for Your Business</h1>
-          <button class="hero-button" type="button">Order Service</button>
-        </div>  
+          <button class="hero-button" type="button" data-modal-open>
+            Order Service
+          </button>
+        </div>
       </section>
       <section class="benefits">
         <div class="container">
@@ -214,15 +217,16 @@
             </li>
           </ul>
         </div>
-     </section>
+      </section>
       <section class="our-team">
-        <div class="container">
+        <div class="container our-team-container">
           <h2 class="our-team-title section-title">Our Team</h2>
           <ul class="our-team-list">
             <li class="our-team-list-item">
               <img
                 class="our-team-list-item-img"
                 src="./images/product-designer.jpg"
+                srcset="./images/product-designer@2x.jpg"
                 alt="Product Designer"
                 width="264"
                 height="260"
@@ -298,6 +302,7 @@
               <img
                 class="our-team-list-item-img"
                 src="./images/frontend-developer.jpg"
+                srcset="./images/frontend-developer@2x.jpg"
                 alt="Frontend Developer"
                 width="264"
                 height="260"
@@ -373,6 +378,7 @@
               <img
                 class="our-team-list-item-img"
                 src="./images/marketing.jpg"
+                srcset="./images/marketing@2x.jpg"
                 alt="Marketing"
                 width="264"
                 height="260"
@@ -446,6 +452,7 @@
               <img
                 class="our-team-list-item-img"
                 src="./images/ui-designer.jpg"
+                srcset="./images/ui-designer@2x.jpg"
                 alt="UI Designer"
                 width="264"
                 height="260"
@@ -531,6 +538,7 @@
                 <img
                   class="portfolio-list-item-img"
                   src="./images/banking-app.jpg"
+                  srcset="./images/banking-app@2x.jpg"
                   alt="banking-app"
                   width="360"
                   height="300"
@@ -553,6 +561,7 @@
                 <img
                   class="portfolio-list-item-img"
                   src="./images/cashless-payment.jpg"
+                  srcset="./images/cashless-payment@2x.jpg"
                   alt="cashless-payment"
                   width="360"
                   height="300"
@@ -575,6 +584,7 @@
                 <img
                   class="portfolio-list-item-img"
                   src="./images/meditation-app.jpg"
+                  srcset="./images/meditation-app@2x.jpg"
                   alt="meditation-app"
                   width="360"
                   height="300"
@@ -597,6 +607,7 @@
                 <img
                   class="portfolio-list-item-img"
                   src="./images/taxi-service.jpg"
+                  srcset="./images/taxi-service@2x.jpg"
                   alt="taxi-service"
                   width="360"
                   height="300"
@@ -619,6 +630,7 @@
                 <img
                   class="portfolio-list-item-img"
                   src="./images/screen-illustrations.jpg"
+                  srcset="./images/screen-illustrations@2x.jpg"
                   alt="screen-illustrations"
                   width="360"
                   height="300"
@@ -641,6 +653,7 @@
                 <img
                   class="portfolio-list-item-img"
                   src="./images/online-courses.jpg"
+                  srcset="./images/online-courses@2x.jpg"
                   alt="online-courses"
                   width="360"
                   height="300"
@@ -751,11 +764,11 @@
         </div>
       </div>
     </footer>
-    <div class="pop-up-container">
+    <div class="pop-up-container" data-modal>
       <div class="pop-up">
-        <button type="button" class="pop-up-btn">
+        <button type="button" class="pop-up-btn" data-modal-close>
           <svg width="8" height="8" class="pop-up-btn-svg">
-            <use href="./images/icons.svg#cross"></use>
+            <use href="./images/icons.svg#close"></use>
           </svg>
         </button>
         <p class="pop-up-text">Leave your contacts and we will call you back</p>
@@ -775,7 +788,6 @@
               </svg>
             </div>
           </div>
-
           <!-- Phone field -->
           <div class="pop-up-form-field-wrapper">
             <label for="user-phone" class="pop-up-form-label">Phone</label>
@@ -791,7 +803,6 @@
               </svg>
             </div>
           </div>
-
           <!-- Email field -->
           <div class="pop-up-form-field-wrapper">
             <label for="user-email" class="pop-up-form-label">Email</label>
@@ -807,7 +818,6 @@
               </svg>
             </div>
           </div>
-
           <!-- Comment -->
           <div class="pop-up-form-field-comment">
             <label for="user-comment" class="pop-up-form-label">Comment</label>
@@ -818,9 +828,8 @@
               class="pop-up-form-field-comment-textarea"
             ></textarea>
           </div>
-
           <!-- Checkbox -->
-          <div class="pop-up-form-field-comment-checkbox">
+          <div class="pop-up-form-checkbox">
             <input
               id="user-privacy"
               type="checkbox"
@@ -828,10 +837,7 @@
               value="true"
               class="visually-hidden checkbox-input"
             />
-            <label
-              for="user-privacy"
-              class="pop-up-form-field-comment-checkbox-label"
-            >
+            <label for="user-privacy" class="pop-up-form-checkbox-label">
               <span class="checkbox-custom">
                 <svg width="10" height="8" class="checkbox-icon">
                   <use href="./images/icons.svg#icon-checkbox"></use>
@@ -847,5 +853,7 @@
         </form>
       </div>
     </div>
+    <script src="./js/modal.js"></script>
+    <script src="./js/mobile-menu.js"></script>
   </body>
 </html>
